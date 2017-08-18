@@ -15,6 +15,7 @@ p, ol {
     background-image: url("../img/pingpong.jpeg"); 
     height: 200px;
 }
+
 /*Styele h1 in section2*/
 h1 {
     font-size: 40px;
@@ -25,6 +26,7 @@ h1 {
 .replacement {
     font-size: 30px;
 }
+
 /*Animate .replacement in section1 and h1 in ssection2*/
 .replacement, .section2 > h1  {
   color: #922B21;
@@ -46,7 +48,6 @@ h1 {
   animation-iteration-count: infinite;
 }
 
-
 /*Chrome and Safari*/
 
 @-webkit-keyframes replacement-animation {
@@ -66,7 +67,6 @@ h1 {
     color: #1F618D;
   }
 }
-
 
 /*Fifefox*/
 
@@ -88,7 +88,6 @@ h1 {
   }
 }
 
-
 /*Opera*/
 
 @-o-keyframes replacement-animation {
@@ -108,6 +107,7 @@ h1 {
     color: #1F618D;
   }
 }
+
 
 /*Style in section3*/
 form {

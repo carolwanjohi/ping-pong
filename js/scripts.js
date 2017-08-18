@@ -29,6 +29,7 @@ function  numberArray(userNumber) {
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
+    
     // Clear the result field before displaying new result
     $("ul").empty();
 

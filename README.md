@@ -11,7 +11,7 @@
 - For numbers divisible by 5 the output is **pong**
 - For numbers divisible by 3 and 5 the output is **pingpong** 
 
-![Ping Pong](img/ping-pong-screenshot.jpeg)
+![Ping Pong](img/ping-pong-screenshot.png)
 
 ## How Ping Pong Works
 
