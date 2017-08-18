@@ -7,20 +7,11 @@
 ## Description
 
 [This](https://carolwanjohi.github.io/ping-pong/) is a web application that asks the user to input a number into an input field and submit it by clicking on the submit button. Afterwards an output is displayed to the user. The output consists of number 1 upto the user input number with the exception of number 3, 5 and their multiples.
-- For numbers divisible by 3 the output is ping
-- For numbers divisible by 5 the output is pong
-- For numbers divisible by 3 and 5 the output is pingpong <br/>
-or
-- For numbers divisible by 15 the output is pingpong.
+- For numbers divisible by 3 the output is **ping**
+- For numbers divisible by 5 the output is **pong**
+- For numbers divisible by 3 and 5 the output is **pingpong** 
 
 ## How Ping Pong Works
-
-The program should return a message when input is not an number
-- Input : a
-- Output : Not a number
-
-- Input : I am a sentence
-- Output : Not a number
 
 The program should count to the number provided by the user
 - Input : 2
@@ -38,6 +29,9 @@ The program should replace multiples of both 3 and 5 or 15 and its multiples wit
 - Input : 17
 - Output :  [ 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong, 16, 17]
 
+The program should return a message when input is a negative number
+- Input : -20
+- Output : This is not a positive number
 
 ## Setup/Installation Requirements
 
