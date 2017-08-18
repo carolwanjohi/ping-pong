@@ -1,23 +1,19 @@
-//back-end logic
-// var leapYear = function(userNumber) {
-//   if ((userNumber % 100 !== 0) && (userNumber % 4 === 0) || (userNumber % 400 === 0)) {
-//     return true;
-//   } else {
-//     return false;
-//   }
-// };
-// Turn user input into an array 
+// Back-end logic
 
 // Create array from user input
 function  numberArray(userNumber) {
   var numbers = [];
   for (var i = 1; i <= userNumber; i++) {
-    numbers.push(i);
+    if ( i % 3 === 0){
+      numbers.push("ping")
+    } else {
+        numbers.push(i)
+      }
   }
   return numbers;
 }
 
-// front-end logic
+// Front-end logic
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
