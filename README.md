@@ -11,6 +11,8 @@
 - For numbers divisible by 5 the output is **pong**
 - For numbers divisible by 3 and 5 the output is **pingpong** 
 
+![Ping Pong](img/ping-pong-screenshot.jpeg)
+
 ## How Ping Pong Works
 
 The program should count to the number provided by the user
