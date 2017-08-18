@@ -4,7 +4,9 @@
 function  numberArray(userNumber) {
   var numbers = [];
   for (var i = 1; i <= userNumber; i++) {
-    if ( i % 3 === 0){
+    if ( i % 5 === 0) {
+      numbers.push("pong")
+    }else if ( i % 3 === 0){
       numbers.push("ping")
     } else {
         numbers.push(i)
